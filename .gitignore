@@ -1,0 +1,8 @@
+# Excluir documentos y archivos no necesarios para el sitio
+*.docx
+*.doc
+*.pdf
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
