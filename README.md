@@ -23,7 +23,7 @@ Portafolio profesional moderno y completamente responsive, construido con HTML, 
 ## 📂 Estructura del Proyecto
 
 ```
-diego-ortega-cv/
+diego-ortega-portafolio/
 ├── index.html          # Página principal
 ├── styles.css          # Estilos completos
 ├── script.js           # Funcionalidad JavaScript
@@ -49,7 +49,7 @@ El sitio se actualiza automáticamente cuando se hacen cambios en la rama `main`
 
 ## 🌐 URL del Sitio
 
-https://danirak.github.io/diego-ortega-cv/
+https://danirak.github.io/diego-ortega-portafolio/
 
 ## 💻 Desarrollo Local
 
@@ -57,7 +57,7 @@ Para ver el sitio localmente:
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/Danirak/diego-ortega-cv.git
+git clone https://github.com/Danirak/diego-ortega-portafolio.git
 ```
 
 2. Abre `index.html` en tu navegador web favorito
