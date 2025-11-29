@@ -24,24 +24,82 @@ Portafolio profesional moderno y completamente responsive, construido con HTML, 
 
 ```
 diego-ortega-portafolio/
-├── index.html          # Página principal
-├── styles.css          # Estilos completos
-├── script.js           # Funcionalidad JavaScript
-├── favicon.svg         # Favicon del sitio
-├── og-image.svg        # Imagen para redes sociales
-├── CV.md              # Currículum en markdown (referencia)
-├── README.md          # Este archivo
+├── index.html                 # Página principal
+├── 404.html                   # Página de error personalizada
+├── README.md                  # Este archivo
+├── AGENTS.md                  # Reglas para agentes IA
+├── CV.md                      # Currículum en markdown
+├── .gitignore                 # Archivos ignorados
+│
+├── src/
+│   ├── css/
+│   │   ├── base/              # Estilos base
+│   │   │   ├── variables.css  # Variables CSS
+│   │   │   ├── reset.css      # Reset CSS
+│   │   │   └── utilities.css  # Clases utilitarias
+│   │   ├── layout/            # Layout principal
+│   │   │   └── main.css       # Estructura main
+│   │   ├── components/        # Componentes
+│   │   │   ├── sidebar.css    # Sidebar
+│   │   │   ├── navbar.css     # Navegación
+│   │   │   ├── about.css      # Sobre Mí
+│   │   │   ├── resume.css     # Currículum
+│   │   │   ├── portfolio.css  # Portafolio
+│   │   │   └── contact.css    # Contacto
+│   │   ├── responsive/        # Media queries
+│   │   │   ├── mobile.css     # Móvil
+│   │   │   ├── tablet.css     # Tablet
+│   │   │   └── desktop.css    # Desktop
+│   │   └── styles.css         # Archivo principal
+│   │
+│   ├── js/
+│   │   ├── components/        # Módulos de componentes
+│   │   │   ├── sidebar.js     # Lógica del sidebar
+│   │   │   ├── navigation.js  # Sistema de navegación
+│   │   │   ├── portfolio.js   # Filtros de portafolio
+│   │   │   └── contactForm.js # Formulario de contacto
+│   │   ├── utils/             # Utilidades
+│   │   │   └── helpers.js     # Funciones auxiliares
+│   │   └── main.js            # Punto de entrada JS
+│   │
+│   └── assets/
+│       ├── images/            # Imágenes
+│       │   ├── profile/       # Fotos de perfil
+│       │   ├── projects/      # Imágenes de proyectos
+│       │   └── og-image.svg   # Open Graph image
+│       └── icons/             # Iconos
+│           ├── favicon.svg    # Favicon
+│           ├── navbar/        # Iconos navegación
+│           ├── sidebar/       # Iconos sidebar
+│           ├── services/      # Iconos servicios
+│           └── skills/        # Iconos habilidades
+│
+├── scripts/                   # Scripts de automatización
+│   ├── run-architecture.md    # Documentación de arquitectura
+│   └── run-pm.md             # Gestión de proyectos
+│
 └── .github/
     └── workflows/
-        └── pages.yml   # GitHub Actions para deploy automático
+        └── pages.yml          # GitHub Actions
 ```
 
 ## 🎯 Secciones
 
-1. **Sobre Mí**: Introducción, servicios y habilidades técnicas
-2. **Currículum**: Experiencia laboral, educación y competencias
-3. **Portafolio**: Proyectos destacados con sistema de filtros
-4. **Contacto**: Formulario de contacto funcional
+1. **Sobre Mí**: Introducción, servicios y habilidades técnicas con barras de progreso
+2. **Currículum**: Experiencia laboral, educación y competencias profesionales
+3. **Portafolio**: Proyectos destacados con sistema de filtros (IoT, Web, Cloud)
+4. **Contacto**: Formulario de contacto funcional con validación
+
+## 🏗️ Arquitectura
+
+El proyecto sigue una **arquitectura modular** con separación de responsabilidades:
+
+- **HTML**: Estructura semántica en `index.html`
+- **CSS**: Módulos separados por responsabilidad (base, layout, components, responsive)
+- **JavaScript**: Módulos ES6 con import/export
+- **Assets**: Organización por tipo (images, icons) y contexto (profile, projects, navbar, etc.)
+
+Para más detalles, consulta [`scripts/run-architecture.md`](scripts/run-architecture.md).
 
 ## 🚀 Despliegue Automático
 
