@@ -22,3 +22,13 @@ body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,C
 .two-col{display:grid;grid-template-columns:1fr;gap:16px}
 .footer{margin-top:18px;color:var(--muted);text-align:center}
 @media(min-width:860px){.two-col{grid-template-columns:1fr 1fr}}
+.projects{display:grid;grid-template-columns:1fr;gap:14px;margin-top:8px}
+.project{background:#1a1e31;border:1px solid #242841;border-radius:12px;padding:14px}
+.project h3{margin:0 0 6px 0;font-size:16px}
+.project p{margin:0 0 10px 0;color:#cfd3e6}
+.project-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.project-tags span{background:#22263f;border:1px solid #2c3250;color:#cfd3e6;padding:4px 8px;border-radius:999px;font-size:12px}
+.project-cta{display:flex;flex-wrap:wrap;gap:8px}
+.btn{display:inline-block;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#0f1220;padding:6px 10px;border-radius:10px;text-decoration:none;font-weight:700;font-size:13px}
+.btn:hover{filter:brightness(1.1)}
+@media(min-width:860px){.projects{grid-template-columns:1fr 1fr 1fr}}
