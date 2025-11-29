@@ -5,65 +5,6 @@
 - No uses snake_case
 - Seguir las convenciones de React y TypeScript
 
-# Estructura del Proyecto
-
-Este proyecto es un portfolio personal construido con:
-- **React 18** - Librería de UI
-- **TypeScript** - Tipado estático
-- **Vite** - Build tool y dev server
-- **CSS** - Estilos (sin preprocesadores)
-
-## Estructura de directorios
-
-```
-src/
-├── components/        # Componentes React
-│   ├── Sidebar.tsx
-│   ├── Navbar.tsx
-│   ├── About.tsx
-│   ├── Resume.tsx
-│   ├── Projects.tsx
-│   ├── Blog.tsx
-│   └── Contact.tsx
-├── data/             # Configuración de datos (TypeScript)
-│   ├── profile.ts
-│   ├── about.ts
-│   ├── navbar.ts
-│   ├── resume.ts
-│   ├── projects.ts
-│   ├── blog.ts
-│   ├── contact.ts
-│   └── index.ts
-├── lib/              # Utilidades y helpers
-│   ├── placeholder-images.json
-│   ├── placeholder-images.ts
-│   └── README.md
-├── types/            # Tipos TypeScript
-│   ├── config.ts
-│   └── custom-elements.d.ts
-├── css/              # Estilos
-│   └── style.css
-├── images/           # Imágenes del proyecto (deprecated)
-├── App.tsx           # Componente principal
-└── main.tsx          # Entry point
-
-public/               # Assets estáticos servidos directamente
-├── avatars/          # Imágenes de avatares
-├── icons/            # Iconos SVG
-├── posts/            # Imágenes de blog posts
-├── projects/         # Imágenes de proyectos
-├── images/           # Imágenes comunes (quote, etc)
-├── logo.ico          # Favicon
-└── logo.svg          # Logo SVG
-
-config/               # Assets originales (deprecated - usar public/)
-├── assets/
-│   ├── avatars/
-│   ├── icons/
-│   ├── posts/
-│   └── projects/
-```
-
 ## Sistema de imágenes
 
 El proyecto usa un sistema centralizado de gestión de imágenes en `src/lib/placeholder-images`:
@@ -100,6 +41,15 @@ Para actualizar el contenido del portfolio, edita los archivos en `src/data/`:
 - `contact.ts` - Formulario y ubicación de contacto
 
 # Commands
+
+## Ejecutar script run-architecture
+```command:run_architecture
+./scripts/run-architecture.md
+```
+## Ejecutar script run-pm
+```command:run_pm
+./scripts/run-pm.md
+```
 
 ## Desarrollo
 ```bash

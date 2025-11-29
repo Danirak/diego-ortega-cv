@@ -35,7 +35,7 @@ export const profileConfig: ProfileConfig = {
         },
         {
             icon: "logo-github",
-            url: "https://github.com/diegoortega"
+            url: "https://github.com/Danirak"
         }
     ]
 };
